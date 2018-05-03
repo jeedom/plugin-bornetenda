@@ -1,0 +1,44 @@
+{
+    "plugins\/bornetenda\/desktop\/php\/bornetenda.php": {
+        "Ajouter une borne tenda": "Ajouter une borne tenda",
+        "Mes bornes tenda": "Mes bornes tenda",
+        "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer": "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer",
+        "Général": "Général",
+        "Nom de la borne borne tenda": "Nom de la borne borne tenda",
+        "Objet parent": "Objet parent",
+        "Aucun": "Aucun",
+        "Catégorie": "Catégorie",
+        "Activer": "Activer",
+        "Accéder à la carte": "Accéder à la carte",
+        "Visible": "Visible",
+        "IP de la borne tenda": "IP de la borne tenda",
+        "Compte de la borne tenda": "Compte de la borne tenda",
+        "Password de la borne tenda": "Password de la borne tenda",
+        "Indicateurs": "Indicateurs",
+        "Nom": "Nom",
+        "Sous-Type": "Sous-Type",
+        "Valeur": "Valeur",
+        "Unité": "Unité",
+        "Paramètres": "Paramètres",
+        "Supprimer": "Supprimer",
+        "Sauvegarder": "Sauvegarder",
+        "Ajouter une borne": "Ajouter une borne",
+        "Rechercher": "Rechercher",
+        "Gestion": "Gestion",
+        "Configuration": "Configuration"
+    },
+    "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
+        "Nom": "Nom",
+        "Calcul": "Calcul",
+        "Min": "Min",
+        "Max": "Max",
+        "Historiser": "Historiser",
+        "Afficher": "Afficher",
+        "Tester": "Tester",
+        "Accèder à l'interface de la borne": "Accèder à l'interface de la borne"
+    },
+    "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
+        "La borne tenda ne repond pas ou le compte est incorrect.": "La borne tenda ne repond pas ou le compte est incorrect.",
+        "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
+    }
+}

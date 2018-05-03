@@ -1,0 +1,44 @@
+{
+    "plugins\/bornetenda\/desktop\/php\/bornetenda.php": {
+        "Ajouter une borne tenda": "Tenda Gerät hinzufügen",
+        "Mes bornes tenda": "Mein Tenda Gerät",
+        "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer": "Sie haben keine Tenda Gerät, klicken Sie erst ein mal auf \"Tenda Gerät hinzufügen\"",
+        "Général": "Allgemein",
+        "Nom de la borne borne tenda": "Tenda Gerätname",
+        "Objet parent": "Elternobjekt",
+        "Aucun": "Keine",
+        "Catégorie": "Kategorie",
+        "Activer": "Aktivieren",
+        "Accéder à la carte": "Auf die Karte zugreifen",
+        "Visible": "Sichtbar",
+        "IP de la borne tenda": "Tenda Geräte-IP",
+        "Compte de la borne tenda": "Tenda Geräte-Konto",
+        "Password de la borne tenda": "Tenda Geräte-Passwort",
+        "Indicateurs": "Indikatoren",
+        "Nom": "Name",
+        "Sous-Type": "Unter-Typ",
+        "Valeur": "Wert",
+        "Unité": "Einheit",
+        "Paramètres": "Parameter",
+        "Supprimer": "Löschen",
+        "Sauvegarder": "Speichern",
+        "Ajouter une borne": " Einen Terminal hinzufügen",
+        "Rechercher": "Suchen",
+        "Gestion": "Verwaltung",
+        "Configuration": "Konfiguration"
+    },
+    "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
+        "Nom": "Name",
+        "Calcul": "Berechnung",
+        "Min": "Min",
+        "Max": "Max",
+        "Historiser": "Archivieren",
+        "Afficher": "Anzeigen",
+        "Tester": "Testen",
+        "Accèder à l'interface de la borne": "Zugriff auf Geräte-Schnittstelle"
+    },
+    "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
+        "La borne tenda ne repond pas ou le compte est incorrect.": "Tenda Terminal reagiert nicht oder das Konto ist nicht korrekt.",
+        "La borne tenda ne repond pas.": "Tenda Terminal antwortet nicht."
+    }
+}
