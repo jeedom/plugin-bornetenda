@@ -8,27 +8,32 @@
   <meta http-equiv="Content-Language" content="pt-br">
 </head>
 <body>
-  <div class="navbar-fixed">
+  <div class="navbar-fixed hide-on-print">
     <nav>
       <div class="nav-wrapper container">
-        <a id="logo-container" href="https://jeedom-plugins-extra.github.io/" class="brand-logo center"><img src="/{{site.github.project_title}}/assets/images/logo.png" style="height:50px;margin-top:5px"></a>
+        <a id="logo-container" href="https://www.jeedom.com/doc" class="brand-logo center"><img src="/{{site.github.project_title}}/assets/images/logo.png" style="height:50px;margin-top:5px"></a>
         <ul class="left hide-on-med-and-down">
-          <li><a href="https://jeedom-plugins-extra.github.io">jeedom-plugins-Extra Documentation</a></li>
+          <li><a href="https://www.jeedom.com/doc">Jeedom Documentation</a></li>
         </ul>
-        <a href="https://jeedom-plugins-extra.github.io" data-activates="nav-mobile" class="button-collapse btn-floating btn-large waves-effect waves-light jeedomcolorbg"><i class="material-icons">menu</i></a>
+        <a href="https://www.jeedom.com/doc" data-activates="nav-mobile" class="button-collapse btn-floating btn-large waves-effect waves-light jeedomcolorbg"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="https://jeedom-plugins-extra.github.io/">Site</a></li>
-          <li class="active"><a href="https://jeedom-plugins-extra.github.io">Doc</a></li>
+          <li><a href="https://www.jeedom.com/site">Site</a></li>
+          <li><a href="https://www.jeedom.com/blog">Blog</a></li>
+          <li><a href="https://www.jeedom.com/forum">Forum</a></li>
+          <li><a href="https://www.jeedom.com/market">Market</a></li>
+          <li class="active"><a href="https://www.jeedom.com/doc">Doc</a></li>
         </ul>
         <ul class="side-nav" id="nav-mobile">
-          <li><a href="https://jeedom-plugins-extra.github.io/">Site</a></li>
-          <li class="active"><a href="https://jeedom-plugins-extra.github.io">Doc</a></li>
+          <li><a href="https://www.jeedom.com/blog">Blog</a></li>
+          <li><a href="https://www.jeedom.com/forum">Forum</a></li>
+          <li><a href="https://www.jeedom.com/market">Market</a></li>
+          <li class="active"><a href="https://www.jeedom.com/doc">Doc</a></li>
         </ul>
       </div>
     </nav>
   </div>
   <div class="row" id="div_main">
-    <div id="side-nav" class="side-nav fixed">
+    <div id="side-nav" class="side-nav fixed hide-on-print">
       <div class="container">
        <div class="row">
         <div class="col s2">
@@ -48,8 +53,8 @@
     <div id="div_summary" style="margin-top:-45px;padding-bottom: 45px;"></div>
   </div>
   <div>
-    <i class="material-icons" id="bt_up" style="position:fixed;bottom:10px;right:10px;cursor: pointer;font-size:3em;">keyboard_arrow_up</i>
-    <div class="hide-on-large-only" id='div_menuMobile'>
+    <i class="material-icons hide-on-print" id="bt_up" style="position:fixed;bottom:10px;right:10px;cursor: pointer;font-size:3em;">keyboard_arrow_up</i>
+    <div class="hide-on-large-only hide-on-print" id='div_menuMobile'>
      <div class="row">
       <div class="col s2">
         <i class="material-icons" style="position: relative;top:15px;left:20px;">language</i>
@@ -66,6 +71,7 @@
   </div>
   <div id="div_summary2"></div>
 </div>
+<div id="div_summary3" style="display: none;" class="show-on-print"></div>
 <div id="div_content">
   {{content}}
 </div>
@@ -83,7 +89,7 @@
    document.title = 'Documentation Jeedom | '+ title[0].toUpperCase() + title.substring(1)
    $(".button-collapse").sideNav();
    $('meta[name=description]').remove();
-   $('head').append( '<meta name="description" content="Ceci est la documentation du plugin "'+ title[0].toUpperCase() + title.substring(1)+'", lier à la solution domotique Jeedom.">' );
+   $('head').append( '<meta name="description" content="Ceci est la documentation du plugin "'+ title[0].toUpperCase() + title.substring(1)+'", lier à la solution domotique Jeedom.">' ); 
    $('img').addClass('responsive-img');
    $('#div_content table').addClass('striped');
    init();
@@ -112,7 +118,7 @@
     init();
   });
   function init(){
-    $('#div_summary2,#div_summary').empty();
+    $('#div_summary2,#div_summary,#div_summary3').empty();
     var titlePlugin = title.charAt(0).toUpperCase() + title.substring(1).toLowerCase()
     if(window.innerWidth < 992){
       $('#div_main').addClass('container');
@@ -127,7 +133,13 @@
       selectors : 'h1,h2'
     });
    }
-   $('#toctitle').html('<h2 style="padding-left:5px !important;">'+titlePlugin+'</h2>');
+    $('#div_content').toc({
+      renderIn : "#div_summary3",
+      selectors : 'h1,h2'
+    });
+   $('#div_summary #toctitle').html('<h2 style="padding-left:5px !important;">'+titlePlugin+'</h2>');
+   $('#div_summary2 #toctitle').html('<h2 style="padding-left:5px !important;">'+titlePlugin+'</h2>');
+   $('#div_summary3 #toctitle').html('<h2 style="padding-left:5px !important;">'+titlePlugin+'</h2>');
    $('.toclevel-2').parent().css('color', 'blue');
  }
  var i = 1, j = 1;
@@ -135,14 +147,14 @@
   if($(this)[0].tagName.toLowerCase() == 'h1'){
     $('#'+$(this).attr('id')).text(i + ') ' + $(this).text());
     i++;
-  }
+  } 
   if($(this)[0].tagName.toLowerCase() == 'h2'){
-    $('#'+$(this).attr('id')).text( (i-1) + '.' + j + ') ' + $(this).text());
+    $('#'+$(this).attr('id')).text( (i-1) + '.' + j + ') ' + $(this).text()); 
     j++;
   }else{
     j = 1;
   }
-});
+});  
 });
 
   var idChapitre = null, nbrChapitre = 0, idAncre = null;
@@ -160,6 +172,7 @@
     }else{
       idChapitre = idAncre;
     }
+    $('#div_summary3 a').removeClass('active');
   });
 </script>
 </body>
