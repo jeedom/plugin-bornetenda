@@ -22,7 +22,7 @@
         "Paramètres": "Parámetros",
         "Supprimer": "Borrar",
         "Sauvegarder": "Guardar",
-        "Ajouter une borne": "Ajouter une borne",
+        "Ajouter une borne": "Agrega una terminal",
         "Rechercher": "Buscar",
         "Gestion": "Administración",
         "Configuration": "Configuración"
@@ -39,6 +39,6 @@
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
         "La borne tenda ne repond pas ou le compte est incorrect.": "El router Tenda no responde o la cuenta es incorrecta.",
-        "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
+        "La borne tenda ne repond pas.": "El terminal  tenda no responde."
     }
 }
