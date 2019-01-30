@@ -22,7 +22,7 @@
         "Paramètres": "Settings",
         "Supprimer": "Delete",
         "Sauvegarder": "Save",
-        "Ajouter une borne": "Ajouter une borne",
+        "Ajouter une borne": "Add an access point",
         "Rechercher": "Search",
         "Gestion": "Management",
         "Configuration": "Configuration"
@@ -39,6 +39,6 @@
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
         "La borne tenda ne repond pas ou le compte est incorrect.": "The Tenda access point is not responding or the credentials are incorrect.",
-        "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
+        "La borne tenda ne repond pas.": "The tenda access point does not respond."
     }
 }
