@@ -30,7 +30,7 @@ Puis définir :
 
 -   *''Mot de passe*''
 
-FAQ
+Preguntas frecuentes
 ===
 
 A quelle fréquence les données sont-elles mise à jour ?
