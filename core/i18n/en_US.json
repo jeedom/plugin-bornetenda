@@ -1,31 +1,33 @@
 {
     "plugins\/bornetenda\/desktop\/php\/bornetenda.php": {
-        "Ajouter une borne tenda": "Add a Tenda access point",
+        "401 - Accès non autorisé": "401 - Unauthorized access",
+        "Ajouter une borne": "Add an access point",
+        "Rechercher": "Search",
+        "Gestion": "Management",
+        "Configuration": "Setup",
         "Mes bornes tenda": "My Tenda access points",
         "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer": "You have not configured any Tenda access points. Click Add a device to start",
+        "Sauvegarder": "Save",
+        "Supprimer": "Delete",
+        "Configuration avancée": "Advanced configuration",
+        "Equipement": "Equipment",
+        "Commandes": "Commands",
         "Général": "Main",
         "Nom de la borne borne tenda": "Name of the Tenda access point",
         "Objet parent": "Parent object",
         "Aucun": "None",
         "Catégorie": "Category",
         "Activer": "Activate",
-        "Accéder à la carte": "Access the map",
         "Visible": "Visible",
+        "Accéder à la carte": "Access the map",
         "IP de la borne tenda": "Tenda access point IP",
         "Compte de la borne tenda": "Tenda access point username",
         "Password de la borne tenda": "Tenda access point password",
-        "Indicateurs": "Indicators",
         "Nom": "Name",
-        "Sous-Type": "Sub-Type",
+        "Sous-Type": "Sub-type",
         "Valeur": "Value",
         "Unité": "Unit",
-        "Paramètres": "Settings",
-        "Supprimer": "Delete",
-        "Sauvegarder": "Save",
-        "Ajouter une borne": "Add an access point",
-        "Rechercher": "Search",
-        "Gestion": "Management",
-        "Configuration": "Configuration"
+        "Paramètres": "Settings"
     },
     "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
         "Nom": "Name",
@@ -33,12 +35,13 @@
         "Min": "Min",
         "Max": "Max",
         "Historiser": "Historize",
-        "Afficher": "Display",
+        "Afficher": "Show",
         "Tester": "Test",
         "Accèder à l'interface de la borne": "Open access point interface"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrect.": "The Tenda access point is not responding or the credentials are incorrect.",
-        "La borne tenda ne repond pas.": "The tenda access point does not respond."
+        "La borne tenda ne repond pas ou le compte est incorrecte.": "",
+        "La borne tenda ne repond pas.": "The tenda access point does not respond.",
+        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipment deactivated impossible to execute the command: '. $ this-> getHumanName ()"
     }
 }

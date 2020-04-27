@@ -1,36 +1,36 @@
-Präsentation
+
 ============
 
 .
 
 .
 
-Installation / Einrichtung
+
 ========================
 
-Wir werden jetzt ein Gerät konfigurieren. *''
+. *''
 
 *''"
 
-Geben Sie dann den Namen des Geräts ein (z. 
+. 
 
-Dann definieren :
+ :
 
--   *''Übergeordnetes Objekt*''
-
--   *''
+-   *''Objeto pai*''
 
 -   *''
 
 -   *''
 
--   *''IP-Adresse*''
+-   *''
 
--   *''Konto*''
+-   *''Endereço IP*''
 
--   *''Passwort*''
+-   *''*''
 
-Faq
+-   *''Senha*''
+
+
 ===
 
  ?

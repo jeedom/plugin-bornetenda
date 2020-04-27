@@ -1,30 +1,30 @@
-Change log
+
 ==========
 
-> **Warning**
+> **Advertencia**
 >
-> Detail complet des mises à jour sur [Historique
-> Commit](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/commits/master)
+> 
+> :
 
-Liste des évolutions majeures de la version courante :
+ :
 
--   Mise aux normes de gestion équipement
+-   
 
-Anciennes évolutions :
+Desarrollos antiguos :
 
--   Suppression du lien Paypal pour être conforme avec Jeedom V3.1
+-   
 
--   Modification pour compatibilité Jeedom V3
+-   Modificación para compatibilidad con Jeedom V3
 
--   Plus de suivi de version
+-   No más seguimiento de versiones
 
--   Prise en compte de l’application mobile
+-   
 
--   Modification de l’extension du logo.
+-   Modificación de la extensión del logo..
 
--   Compatibilité Imperihome
+-   Compatibilidad Imperihome
 
--   Retrait de la suppression des équipements lors de la désactivation
-    du plugin
+-   Retiro del retiro del equipo durante la desactivación
+    plugin
 
--   Initialisation du plugin
+-   

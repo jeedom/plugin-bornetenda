@@ -1,34 +1,36 @@
 {
     "plugins\/bornetenda\/desktop\/php\/bornetenda.php": {
-        "Ajouter une borne tenda": "Tenda sınırı ekle",
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Ajouter une borne": "",
+        "Rechercher": "Arayın",
+        "Gestion": "Idare",
+        "Configuration": "Ayar",
         "Mes bornes tenda": "Tenda sınırlarım",
         "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer": "Henüz tenda sınırınız yok, başlamak için cihaz ekleye tiklayın",
+        "Sauvegarder": "Kaydet",
+        "Supprimer": "Sil",
+        "Configuration avancée": "Gelişmiş ayarlar",
+        "Equipement": "Cihaz",
+        "Commandes": "Komutalar",
         "Général": "Genel",
         "Nom de la borne borne tenda": "Tenda sınırının ismi",
-        "Objet parent": "Ana nesne",
+        "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
         "Catégorie": "Kategori",
         "Activer": "Etkinleştir",
-        "Accéder à la carte": "Karta el koy",
         "Visible": "Görülebilir",
+        "Accéder à la carte": "Karta el koy",
         "IP de la borne tenda": "Tenda sınının IP\\'si",
-        "Compte de la borne tenda": "tenda sınırının hesabı",
+        "Compte de la borne tenda": "Tenda sınırının hesabı",
         "Password de la borne tenda": "Tenda sınırının ismi",
-        "Indicateurs": "Göstergeler",
-        "Nom": "Soyisim",
-        "Sous-Type": "alt tipi",
+        "Nom": "İsim",
+        "Sous-Type": "Alt türü(tipi)",
         "Valeur": "Değer",
         "Unité": "Ünite",
-        "Paramètres": "Ayarlar",
-        "Supprimer": "Sil",
-        "Sauvegarder": "Kaydet",
-        "Ajouter une borne": "Ajouter une borne",
-        "Rechercher": "Arayın",
-        "Gestion": "Yönetim",
-        "Configuration": "Ayarlar"
+        "Paramètres": "Ayarlar ( Séçenekler )"
     },
     "plugins\/bornetenda\/desktop\/js\/bornetenda.js": {
-        "Nom": "Soyisim",
+        "Nom": "İsim",
         "Calcul": "Hesap",
         "Min": "Minimum",
         "Max": "Maximum",
@@ -38,7 +40,8 @@
         "Accèder à l'interface de la borne": "Sınırın arayüzüne ulaşın"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrect.": "Tenda sınırı cevap vermiyor yada hesap doğru değil",
-        "La borne tenda ne repond pas.": "La borne tenda ne repond pas."
+        "La borne tenda ne repond pas ou le compte est incorrecte.": "",
+        "La borne tenda ne repond pas.": "",
+        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": ""
     }
 }
