@@ -40,7 +40,7 @@
         "Accèder à l'interface de la borne": "Acceder a la interfaz del terminal"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrecte.": "",
+        "La borne tenda ne repond pas ou le compte est incorrecte.": "El terminal tenda no responde o el recuento es incorrecto.",
         "La borne tenda ne repond pas.": "El terminal  tenda no responde.",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipo desactivado imposible de ejecutar el comando: '. $ this-> getHumanName ()"
     }

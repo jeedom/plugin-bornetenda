@@ -3,8 +3,6 @@
         "Change log": "Change log",
         "Warning": "Warning",
         "Detail complet des mises à jour sur [Historique": "Detail complet des mises à jour sur [Historique",
-        "Commit](https": "Commit](https",
-        "\/\/github.com\/Jeedom-Plugins-Extra\/plugin-bornetenda\/commits\/master)": "\/\/github.com\/Jeedom-Plugins-Extra\/plugin-bornetenda\/commits\/master)",
         "Liste des évolutions majeures de la version courante": "Liste des évolutions majeures de la version courante",
         "Mise aux normes de gestion équipement": "Mise aux normes de gestion équipement",
         "Anciennes évolutions": "Anciennes évolutions",
@@ -46,6 +44,8 @@
         "Si vous souhaitez tout de même faire un don au développeur du plugin, merci de me demander un lien par MP sur le forum": "Si vous souhaitez tout de même faire un don au développeur du plugin, merci de me demander un lien par MP sur le forum",
         "J'aimerai remonter des erreurs\/modifications directement dans le code": "J'aimerai remonter des erreurs\/modifications directement dans le code",
         "C'est tout à fait possible via": "C'est tout à fait possible via",
-        "Ou trouver le changelog": "Ou trouver le changelog"
+        "github": "github",
+        "Ou trouver le changelog": "Ou trouver le changelog",
+        "Ici": "Ici"
     }
 }

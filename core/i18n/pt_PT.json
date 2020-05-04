@@ -1,28 +1,28 @@
 {
     "plugins\/bornetenda\/desktop\/php\/bornetenda.php": {
         "401 - Accès non autorisé": "401 - Acesso não autorizado",
-        "Ajouter une borne": "",
+        "Ajouter une borne": "Adicionar um terminal",
         "Rechercher": "Pesquisa",
         "Gestion": "Gestão",
         "Configuration": "Configuração",
-        "Mes bornes tenda": "",
-        "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer": "",
+        "Mes bornes tenda": "Meus terminais esticados",
+        "Vous n'avez pas encore de borne tenda, cliquez sur Ajouter un équipement pour commencer": "Você ainda não possui um terminal tenda, clique em Adicionar um dispositivo para iniciar",
         "Sauvegarder": "Salvar",
         "Supprimer": "Remover",
         "Configuration avancée": "Configuração avançada",
         "Equipement": "Equipamento",
         "Commandes": "Comandos",
         "Général": "Geral",
-        "Nom de la borne borne tenda": "",
+        "Nom de la borne borne tenda": "Nome do terminal terminal tenda",
         "Objet parent": "Objeto pai",
         "Aucun": "Nemhum",
         "Catégorie": "Categoria",
         "Activer": "Ativar",
         "Visible": "Visivél",
-        "Accéder à la carte": "",
-        "IP de la borne tenda": "",
-        "Compte de la borne tenda": "",
-        "Password de la borne tenda": "",
+        "Accéder à la carte": "Acesse o mapa",
+        "IP de la borne tenda": "IP do terminal Tenda",
+        "Compte de la borne tenda": "Conta terminal Tenda",
+        "Password de la borne tenda": "Senha do terminal Tenda",
         "Nom": "Nome",
         "Sous-Type": "Subtipo",
         "Valeur": "Valor",
@@ -33,15 +33,15 @@
         "Nom": "Nome",
         "Calcul": "Cálculo",
         "Min": "Baixo",
-        "Max": "",
+        "Max": "Máx.",
         "Historiser": "Historicizar",
         "Afficher": "Display",
         "Tester": "Teste",
-        "Accèder à l'interface de la borne": ""
+        "Accèder à l'interface de la borne": "Acesse a interface do terminal"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrecte.": "",
-        "La borne tenda ne repond pas.": "",
-        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": ""
+        "La borne tenda ne repond pas ou le compte est incorrecte.": "O terminal tenda não responde ou a contagem está incorreta.",
+        "La borne tenda ne repond pas.": "O terminal tenda não responde.",
+        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipamento desativado impossível de executar o comando: '. $ this-> getHumanName ()"
     }
 }
