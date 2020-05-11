@@ -8,9 +8,9 @@ Habilita wifi y lo desactiva.
 Instalación / Configuración
 ========================
 
-Ahora configuraremos un dispositivo. Para hacerlo, haga clic en * '' Complementos / Comunicación / terminal tenda W301A*''
+Ahora configuraremos un dispositivo. Para hacerlo, haga clic en *''Complementos / Comunicación / terminal tenda W301A*''
 
-Luego haga clic en el botón en la esquina superior izquierda "* '' Agregar equipo*''"
+Luego haga clic en el botón en la parte superior izquierda "*''Agregar equipo*''"
 
 Luego ingrese el nombre del equipo (ej.. Terminal 1)
 
@@ -18,19 +18,19 @@ Luego defina :
 
 -   *''Objeto padre*''
 
--   *''Categoría '*' (opcional)
+-   *''Categoría '*'(opcional)
 
--   *''Active '*' (marque, de lo contrario el equipo no será utilizable)
+-   *''Activar '*'(marque, de lo contrario el equipo no será utilizable)
 
--   *''Visible '*' (opcional si no desea que sea visible en el Tablero)
+-   *''Visible '*'(opcional si no desea que sea visible en el Tablero)
 
 -   *''Dirección IP*''
 
--   *''Compte*''
+-   *''Cuenta*''
 
 -   *''Contraseña*''
 
-FAQ
+Preguntas frecuentes
 ===
 
 ¿Con qué frecuencia se actualizan los datos? ?
@@ -50,8 +50,8 @@ Este complemento es gratuito para que todos puedan simplemente disfrutarlo. Si a
 Me gustaría informar errores / modificaciones directamente en el código ?
 -----------------------------------------------------------------------
 Es completamente posible a través de
-[Github](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
+[Github](https://Github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
 
 Dónde encontrar el registro de cambios
 -----------------------
-[Aquí](https://jeedom.github.io/plugin-bornetenda/fr_FR/changelog.html)
+[Aquí](https://jeedom.Github.io/plugin-bornetenda/es_ES/changelog.html)

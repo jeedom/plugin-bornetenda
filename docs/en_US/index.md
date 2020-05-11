@@ -8,9 +8,9 @@ It enables wifi and deactivates it.
 Installation / Setup
 ========================
 
-We will now configure a device. To do so, click on * '' Plugins / Communication / terminal tenda W301A*''
+We will now configure a device. To do so, click on *''Plugins / Communication / tenda terminal W301A*''
 
-Then click on the button at the top left "* '' Add equipment*''"
+Then click on the button at the top left "*''Add equipment*''"
 
 Then enter the name of the equipment (ex. Terminal 1)
 
@@ -18,15 +18,15 @@ Then define :
 
 -   *''Parent object*''
 
--   *''Category '*' (optional)
+-   *''Category '*'(optional)
 
--   *''Activate '*' (check, otherwise the equipment will not be usable)
+-   *''Activate '*'(check, otherwise the equipment will not be usable)
 
--   *''Visible '*' (optional if you do not want to make it visible on the Dashboard)
+-   *''Visible '*'(optional if you don't want to make it visible on the Dashboard)
 
 -   *''IP adress*''
 
--   *''Compte*''
+-   *''Account*''
 
 -   *''Password*''
 
@@ -50,8 +50,8 @@ This plugin is free so that everyone can simply enjoy it. If you still want to d
 I would like to report errors / modifications directly in the code ?
 -----------------------------------------------------------------------
 It is entirely possible via
-[Github](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
+[Github](https://Github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
 
 Where to find the changelog
 -----------------------
-[Here](https://jeedom.github.io/plugin-bornetenda/fr_FR/changelog.html)
+[Here](https://jeedom.Github.io/plugin-bornetenda/en_US/changelog.html)

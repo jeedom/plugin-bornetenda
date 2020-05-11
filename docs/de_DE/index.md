@@ -8,9 +8,9 @@ Es aktiviert WLAN und deaktiviert es.
 Installation / Einrichtung
 ========================
 
-Wir werden jetzt ein Gerät konfigurieren. Klicken Sie dazu auf * '' Plugins / Communication / Terminal Tenda W301A*''
+Wir werden jetzt ein Gerät konfigurieren. Klicken Sie dazu auf *''Plugins / Kommunikation / Tenda-Terminal W301A*''
 
-Klicken Sie dann oben links auf die Schaltfläche "* '' Ausrüstung hinzufügen*''"
+Klicken Sie dann oben links auf die Schaltfläche "*''Ausrüstung hinzufügen*''"
 
 Geben Sie dann den Namen des Geräts ein (z. Terminal 1)
 
@@ -18,19 +18,19 @@ Dann definieren :
 
 -   *''Übergeordnetes Objekt*''
 
--   *''Kategorie '*' (optional)
+-   *''Kategorie '*'(optional)
 
--   *''Aktivieren Sie '*' (überprüfen Sie, ob das Gerät sonst nicht verwendet werden kann).
+-   *''Aktivieren '*'(überprüfen, sonst ist das Gerät nicht verwendbar)
 
--   *''Sichtbares '*' (optional, wenn Sie es nicht im Dashboard sichtbar machen möchten)
+-   *''Sichtbar '*'(Optional, wenn Sie es nicht im Dashboard sichtbar machen möchten)
 
 -   *''IP-Adresse*''
 
--   *''Compte*''
+-   *''Konto*''
 
 -   *''Passwort*''
 
-FAQ
+Faq
 ===
 
 Wie oft werden die Daten aktualisiert? ?
@@ -50,8 +50,8 @@ Dieses Plugin ist kostenlos, so dass jeder es einfach genießen kann. Wenn Sie d
 Ich möchte Fehler / Änderungen direkt im Code melden ?
 -----------------------------------------------------------------------
 Es ist durchaus möglich über
-[Github](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
+[Github](https://Github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
 
 Wo finde ich das Changelog?
 -----------------------
-[Hier](https://jeedom.github.io/plugin-bornetenda/fr_FR/changelog.html)
+[Hier](https://jeedom.Github.io/plugin-bornetenda/de_DE/changelog.html)

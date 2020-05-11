@@ -1,7 +1,7 @@
 Cambiar registro
 ==========
 
-> **Warning**
+> **Advertencia**
 >
 > Detalles completos de las actualizaciones en [Historial
 > Commit](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/commits/master)
