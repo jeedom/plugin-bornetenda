@@ -18,7 +18,7 @@ Then define :
 
 -   *''Parent object*''
 
--   *''Category '*'(optional)
+-   *''Category '*'(optionnelle)
 
 -   *''Activate '*'(check, otherwise the equipment will not be usable)
 
@@ -50,8 +50,8 @@ This plugin is free so that everyone can simply enjoy it. If you still want to d
 I would like to report errors / modifications directly in the code ?
 -----------------------------------------------------------------------
 It is entirely possible via
-[Github](https://Github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
+[Github](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
 
 Where to find the changelog
 -----------------------
-[Here](https://jeedom.Github.io/plugin-bornetenda/en_US/changelog.html)
+[Here](https://jeedom.github.io/plugin-bornetenda/en_US/changelog.html)

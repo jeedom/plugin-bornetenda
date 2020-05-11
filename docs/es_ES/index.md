@@ -1,4 +1,4 @@
-Presentación 
+Presentación
 ============
 
 Este complemento permite gestionar los terminales tenda W301A.
@@ -12,13 +12,13 @@ Ahora configuraremos un dispositivo. Para hacerlo, haga clic en *''Complementos 
 
 Luego haga clic en el botón en la parte superior izquierda "*''Agregar equipo*''"
 
-Luego ingrese el nombre del equipo (ej.. Terminal 1)
+Luego ingrese el nombre del equipo (ej. Terminal 1)
 
 Luego defina :
 
 -   *''Objeto padre*''
 
--   *''Categoría '*'(opcional)
+-   *''Categoría '*'(optionnelle)
 
 -   *''Activar '*'(marque, de lo contrario el equipo no será utilizable)
 
@@ -30,13 +30,13 @@ Luego defina :
 
 -   *''Contraseña*''
 
-Preguntas frecuentes
+FAQ
 ===
 
 ¿Con qué frecuencia se actualizan los datos? ?
 -------------------------------------------------------
 
-Los datos se actualizan cada minuto..
+Los datos se actualizan cada minuto.
 
 Este complemento no genera un registro, cómo tenerlo ?
 --------------------------------------------------
@@ -50,8 +50,8 @@ Este complemento es gratuito para que todos puedan simplemente disfrutarlo. Si a
 Me gustaría informar errores / modificaciones directamente en el código ?
 -----------------------------------------------------------------------
 Es completamente posible a través de
-[Github](https://Github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
+[Github](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
 
 Dónde encontrar el registro de cambios
 -----------------------
-[Aquí](https://jeedom.Github.io/plugin-bornetenda/es_ES/changelog.html)
+[Aquí](https://jeedom.github.io/plugin-bornetenda/es_ES/changelog.html)

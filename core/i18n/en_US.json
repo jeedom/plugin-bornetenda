@@ -40,8 +40,8 @@
         "Accèder à l'interface de la borne": "Open access point interface"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrecte.": "Tenda acces point does not respond or the account is incorrect.",
-        "La borne tenda ne repond pas.": "The tenda access point does not respond.",
+        "La borne tenda ne repond pas ou le compte est incorrecte.": "Tenda acces point does not respond or the account is incorrect",
+        "La borne tenda ne repond pas.": "The tenda access point does not respond",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipment deactivated impossible to execute the command: '. $ this-> getHumanName ()"
     }
 }

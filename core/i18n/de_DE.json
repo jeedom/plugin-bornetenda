@@ -40,8 +40,8 @@
         "Accèder à l'interface de la borne": "Zugriff auf die Schnittstelle des Terminals"
     },
     "plugins\/bornetenda\/core\/class\/bornetenda.class.php": {
-        "La borne tenda ne repond pas ou le compte est incorrecte.": "Terminal Tenda reagiert nicht oder die Zählung ist falsch.",
-        "La borne tenda ne repond pas.": "Das Tenda-Terminal reagiert nicht.",
+        "La borne tenda ne repond pas ou le compte est incorrecte.": "Terminal Tenda reagiert nicht oder die Zählung ist falsch",
+        "La borne tenda ne repond pas.": "Das Tenda-Terminal reagiert nicht",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Geräte deaktiviert unmöglich, um den Befehl auszuführen: '. $ this-> getHumanName ()"
     }
 }

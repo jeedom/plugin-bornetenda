@@ -18,7 +18,7 @@ Dann definieren :
 
 -   *''Übergeordnetes Objekt*''
 
--   *''Kategorie '*'(optional)
+-   *''Kategorie '*'(optionnelle)
 
 -   *''Aktivieren '*'(überprüfen, sonst ist das Gerät nicht verwendbar)
 
@@ -30,7 +30,7 @@ Dann definieren :
 
 -   *''Passwort*''
 
-Faq
+FAQ
 ===
 
 Wie oft werden die Daten aktualisiert? ?
@@ -50,8 +50,8 @@ Dieses Plugin ist kostenlos, so dass jeder es einfach genießen kann. Wenn Sie d
 Ich möchte Fehler / Änderungen direkt im Code melden ?
 -----------------------------------------------------------------------
 Es ist durchaus möglich über
-[Github](https://Github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
+[Github](https://github.com/Jeedom-Plugins-Extra/plugin-bornetenda/)
 
 Wo finde ich das Changelog?
 -----------------------
-[Hier](https://jeedom.Github.io/plugin-bornetenda/de_DE/changelog.html)
+[Hier](https://jeedom.github.io/plugin-bornetenda/de_DE/changelog.html)

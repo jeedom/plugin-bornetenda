@@ -12,13 +12,13 @@ Agora vamos configurar um dispositivo. Para fazer isso, clique em *''Plugins / C
 
 Em seguida, clique no botão no canto superior esquerdo "*''Adicionar equipamento*''"
 
-Em seguida, digite o nome do equipamento (ex.. Terminal 1)
+Em seguida, digite o nome do equipamento (ex. Terminal 1)
 
 Então defina :
 
 -   *''Objeto pai*''
 
--   *''Categoria '*'(opcional)
+-   *''Categoria '*'(optionnelle)
 
 -   *''Ativar '*'(verifique, caso contrário, o equipamento não será utilizável)
 
@@ -30,7 +30,7 @@ Então defina :
 
 -   *''Senha*''
 
-Faq
+FAQ
 ===
 
 Com que frequência os dados são atualizados ?
