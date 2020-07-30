@@ -43,5 +43,8 @@
         "La borne tenda ne repond pas ou le compte est incorrecte.": "Terminal Tenda reagiert nicht oder die Zählung ist falsch",
         "La borne tenda ne repond pas.": "Das Tenda-Terminal reagiert nicht",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Geräte deaktiviert unmöglich, um den Befehl auszuführen: '. $ this-> getHumanName ()"
+    },
+    "info.json": {
+        "Auteur du plugin : Thomas Guenneguez<br>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br>Plugin permettant de gérer les Bornes Tenda W301A.": "Autor des Plugins: Thomas Guenneguez <br> WARNUNG, dies ist kein offizielles Jeedom-Plugin, sondern ein Plugin, das von einem Dritten entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen. <br> Plugin zur Verwaltung von Tenda W301A Terminals"
     }
 }
